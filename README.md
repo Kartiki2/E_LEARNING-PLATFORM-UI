@@ -1,3 +1,18 @@
+# Personal Portfolio Website
+
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : KARTIK GARG
+
+*INTERN ID* : CT06DG775
+
+*DOMAIN* : FRONTEND WEB DEVELOPMENT
+
+*DURATION* : 6 WEEKS
+
+*MENTOR* : NEELA SANTOSH 
+
+
 ## 📚 E-Learning Platform
 
 A *responsive, single-page educational website* built with *HTML, **CSS, and **JavaScript*, designed to introduce an e-learning platform where users can explore courses, learn about the platform, and get in touch.
