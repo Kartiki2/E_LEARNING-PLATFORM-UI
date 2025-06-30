@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>E-Learning Platform</h1>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>Learn Anytime, Anywhere</h2>
+      <p>Interactive courses to boost your skills</p>
+      <button onclick="alert('Get Started!')">Get Started</button>
+    </section>
+
+    <section id="courses">
+      <h3>Popular Courses</h3>
+      <div class="course-list">
+        <div class="course-card">
+          <h4>Web Development</h4>
+          <p>Learn HTML, CSS, JavaScript and more!</p>
+        </div>
+        <div class="course-card">
+          <h4>Data Science</h4>
+          <p>Master data analysis and visualization.</p>
+        </div>
+        <div class="course-card">
+          <h4>UI/UX Design</h4>
+          <p>Design user-friendly and beautiful apps.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h3>About Us</h3>
+      <p>We provide affordable, high-quality courses taught by experts to help you grow your career.</p>
+    </section>
+
+    <section id="contact">
+      <h3>Contact Us</h3>
+      <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 E-Learning Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
